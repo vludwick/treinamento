@@ -1,0 +1,17 @@
+@import "project/customize";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "project/fonts";
+@import "project/variables";
+// @import "project/mixins";
+@import "project/global";
+
+//atoms
+@import "project/atoms/buttons";
+
+//molecules
+
+
+//organisms
+@import "project/organisms/footer";
+@import "project/organisms/header";

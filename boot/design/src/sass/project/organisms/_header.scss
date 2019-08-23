@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    &--principal{
+        background-image: linear-gradient(to right, #005daa, #0094d7);
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        &--logo {
+            margin: 20px auto 20px 20px;
+        }
+        &--links{
+            a {
+                text-decoration: none;
+                color: #fff;
+                margin: 0 10px;
+                font-size: 14px;
+            }
+        }
+        &--language {
+            color: #fff;
+            font-size: 16px;
+            margin: 0 30px;
+            span {
+                margin-left:5px;
+                font-size: 15px;
+            }
+        }
+        &--chat {
+            @media (max-width: 1200px) {
+                display: none;
+            }
+            color: #465E6B;
+            background-color: #FFCC00;
+            height: 85px;
+            width: 85px;
+            text-align: center;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            i {
+                align-self: center;
+            }
+        }
+        &--search {
+            @media (max-width: 1200px) {
+                display: none;
+            }
+            width: 255px;
+            height: 85px;
+            background-color: #75787B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #fff;
+            padding: 10px;
+            input {
+                background-color: #75787B;
+                border: 0 solid transparent;
+                &:focus {
+                    background-color: #75787B;
+                    border: 0 solid transparent;
+                    outline: none;
+                }
+            }
+            ::placeholder {
+                color: #fff;
+            }
+        }
+    }
+    &--navigation {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 25px 50px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4B739B;
+        &--item {
+            p {
+                margin: 0;
+                color: $font-blue;
+            }
+        }
+    }
+}
