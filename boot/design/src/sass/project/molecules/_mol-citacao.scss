@@ -1,0 +1,22 @@
+.citacao {
+  margin-bottom: 35px;
+    text-align: center;
+    &--content {
+      font-size: 28px;
+      color: #00adef;
+    }
+    &--reference {
+      font-weight: bold;
+      color: $font-blue;
+    }
+    &--button-label {
+      color: #0083cb;
+      font-weight: bold;
+    }
+    &--button {
+      background-color: #00adef;
+      border-radius:25px;
+      color: #fff;
+      padding: 5px 40px;
+    }
+  }

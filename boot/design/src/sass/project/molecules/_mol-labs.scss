@@ -1,0 +1,28 @@
+.labs {
+  margin-bottom: 20px;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--title {
+    color: $blue;
+    font-weight: bold;
+  }
+
+  &--logo {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 80%;
+    }
+  }
+
+  p {
+    color: $font-blue;
+  }
+}

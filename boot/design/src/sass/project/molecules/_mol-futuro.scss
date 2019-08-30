@@ -1,0 +1,41 @@
+.futuro {
+  margin-bottom: 35px;
+    &--image {
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 55%;
+        height: auto;
+      }
+      &--logo {
+        position: absolute;
+        left: 190px;
+        top: 430px;
+        width: 40%;
+        @media (max-width: 1200px) {
+          left: 150px;
+          top: 330px;
+        }
+      }
+    }
+    &--title {
+      color: $blue;
+      font-weight: bold;
+      margin-bottom: 35px;
+    }
+    p {
+      color: $font-blue;
+    }
+  }
+  
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .futuro {
+      &--image {
+        img {
+          min-width: 75%;
+        }
+      } 
+    }
+  }
+  

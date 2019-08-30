@@ -1,0 +1,48 @@
+.veja-tb {
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+  &--title {
+    margin-bottom: 50px;
+    color: $blue;
+    font-weight: bold;
+  }
+
+  &--list {
+    margin-bottom: 35px;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &--image {
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &--description {
+        color: #35494b;
+        font-weight: bold;
+      }
+
+      &--link {
+        color: $blue;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .veja-tb {
+    &--list {
+      .item {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

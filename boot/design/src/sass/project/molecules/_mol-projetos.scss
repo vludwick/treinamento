@@ -1,0 +1,33 @@
+.projetos {
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 35px;
+
+      &__blue {
+        background-color: #05abe7;
+      }
+  
+      &__orange {
+        background-color: #ec6823;
+      }
+  
+      &__pink {
+        background-color: #a62282;
+      }
+  
+      &--image {
+        margin-bottom: 25px;
+        img {
+          width: 100%;
+        }
+      }
+  
+      &--description {
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }

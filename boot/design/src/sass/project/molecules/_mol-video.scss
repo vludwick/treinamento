@@ -1,0 +1,92 @@
+.video {
+  margin-bottom: 35px;
+  background-image: url("../img/video.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 558px;
+  flex-direction: column;
+
+  a {
+    i {
+      color: #fff;
+      font-size: 100px;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .video {
+    min-height: 495px;
+
+    a {
+      i {
+        font-size: 80px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .video {
+    min-height: 410px;
+
+    a {
+      i {
+        font-size: 70px;
+      }
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .video {
+    min-height: 315px;
+
+    a {
+      i {
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+  .video {
+    min-height: 235px;
+
+    a {
+      i {
+        font-size: 50px;
+      }
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+    .video {
+      min-height: 130px;
+  
+      a {
+        i {
+          font-size: 40px;
+        }
+      }
+  
+      p {
+        font-size: 25px;
+      }
+    }
+}
